@@ -1,0 +1,27 @@
+.grid {
+  display: grid;
+  padding: 20px;
+  margin: 100px auto; 
+  width: fit-content; 
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: lightgreen;
+  border-radius: 0.5rem;
+  border-color: lightgreen;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: green;
+  cursor: pointer;
+}
+button:hover {
+  color: lightgreen;
+  background-color: green;
+  border-color: green;
+}
